@@ -1,6 +1,13 @@
 """
 Purpose: To show how to use "Multidimensional Scaling" (MDS)
-to find a set of coordinates in 2D that best respect a matrix
+to find a set of coordinates in 2D that best respect a matrix.
+
+In this particular example, students gave a distance matrix
+where they expressed how similar they thought different majors 
+were to each other.  This code loops through all student
+submissions and plots the results of MDS so we can see
+spatially where the students place these majors in relation
+to each other
 """
 from sklearn.manifold import MDS
 import numpy as np
