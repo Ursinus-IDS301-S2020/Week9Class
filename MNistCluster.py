@@ -17,7 +17,6 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import pairwise_distances
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 import skimage
-import umap
 from sklearn.decomposition import PCA
 
 def imscatter(X, P, dim, zoom=1):
